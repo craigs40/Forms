@@ -1,0 +1,14 @@
+<% if @user.errors.any? %>
+  <%= @user.errors.full_messages %>
+<% end %>
+
+<%= form_with model: @user, method: :post do |form| %>
+  <br><br>
+  <%= form.label :username, "Username:" %>
+  <%= form.text_field :username, placeholder: "Enter your username"%><br><br>
+  <%= form.label :email, "Email:" %>
+  <%= form.text_field :email, placeholder: "example@email.com" %><br><br>
+  <%= form.label :password, "Password:" %>
+  <%= form.password_field :password %><br><br>
+  <%= form.submit "Submit" %>
+<% end %>
