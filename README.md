@@ -1,24 +1,31 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Bare Metal Forms and Helpers
 
-Things you may want to cover:
 
-* Ruby version
+This project demonstrates multiple ways to build a form in rails that can send parameters to a controller so that it can build an instance of a model with those parameters, using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby
 
-* Database creation
+## Authors
 
-* Database initialization
+👤 **Shay Craig**
 
-* How to run the test suite
+- GitHub: [@craigs40](https://github.com/craigs40)
 
-* Services (job queues, cache servers, search engines, etc.)
+## 🤝 Contributing
 
-* Deployment instructions
+Contributions, issues, and feature requests are welcome!
 
-* ...
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Special thanks to all TSEs involved in improving this code.
